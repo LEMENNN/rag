@@ -7,9 +7,9 @@ from src.search import search
 
 texts = load_documents()
 
-chunks = split_text([doc.page_content for doc in texts], chunk_size=200, chunk_overlap=20)
+chunks = split_text([doc.page_content for doc in texts], chunk_size=800, chunk_overlap=80)
 
 
 index_chunks(chunks)
 
-search("Qui est le directeur Innovation du groupe? ")
+search("C'est quoi Micropole ?")
