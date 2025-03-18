@@ -14,4 +14,4 @@ chunks = split_text([doc.page_content for doc in texts], chunk_size=800, chunk_o
 
 index_chunks(chunks)
 
-search("Dit moi qui est Jérome?")
+search("parle moi des congés")
