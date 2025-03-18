@@ -10,8 +10,6 @@ texts = load_documents()
 chunks = split_text([doc.page_content for doc in texts], chunk_size=800, chunk_overlap=80)
 
 
-
-
 index_chunks(chunks)
 
-search("Dit moi qui est Jérome?")
+search("Qui est le directeur de l'innovation?")
