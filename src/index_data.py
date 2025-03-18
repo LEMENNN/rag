@@ -1,10 +1,6 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-
-
-
-
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 chroma_client = chromadb.PersistentClient(path="db")  # Stockage persistant dans le dossier "db"

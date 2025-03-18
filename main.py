@@ -12,4 +12,4 @@ chunks = split_text([doc.page_content for doc in texts], chunk_size=800, chunk_o
 
 index_chunks(chunks)
 
-search("Qui est le directeur de l'innovation?")
+search("Combien de jour pour le congé naissance")
